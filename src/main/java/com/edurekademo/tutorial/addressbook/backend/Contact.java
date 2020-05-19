@@ -51,6 +51,8 @@ public class Contact implements Serializable, Cloneable {
         return phone;
     }
 
+     system.out.println("test2:");
+
     public void setPhone(String phone) {
         this.phone = phone;
     }
@@ -63,7 +65,7 @@ public class Contact implements Serializable, Cloneable {
         this.email = email;
     }
 
-    
+     system.out.println("test2:");
 
     public Date getBirthDate() {
         return birthDate;
@@ -84,9 +86,11 @@ public class Contact implements Serializable, Cloneable {
 
     @Override
     public String toString() {
-        return "Contact{" + "id1=" + id + ", firstName1=" + firstName
-                + ", lastName1=" + lastName + ", phone1=" + phone + ", email1="
-                + email + ", birthDate1=" + birthDate + '}';
+       system.out.println("newly created line");
+        return "Contact{" + "id1=" + id + ", firstName2=" + firstName
+                + ", lastName1=" + lastName + ", phone2=" + phone + ", email1="
+                + email + ", birthDate2=" + birthDate + '}';
+
     }
 
 }
