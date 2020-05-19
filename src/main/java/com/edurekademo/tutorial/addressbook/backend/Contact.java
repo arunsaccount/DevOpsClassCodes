@@ -63,7 +63,7 @@ public class Contact implements Serializable, Cloneable {
         this.email = email;
     }
 
-    
+    //test
 
     public Date getBirthDate() {
         return birthDate;
