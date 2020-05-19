@@ -67,6 +67,9 @@ public class Contact implements Serializable, Cloneable {
 
      system.out.println("test2:");
 
+    //test
+
+
     public Date getBirthDate() {
         return birthDate;
     }
