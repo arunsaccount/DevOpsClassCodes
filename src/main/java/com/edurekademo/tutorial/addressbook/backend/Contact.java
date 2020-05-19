@@ -63,6 +63,8 @@ public class Contact implements Serializable, Cloneable {
         this.email = email;
     }
 
+    
+
     public Date getBirthDate() {
         return birthDate;
     }
@@ -82,9 +84,9 @@ public class Contact implements Serializable, Cloneable {
 
     @Override
     public String toString() {
-        return "Contact{" + "id=" + id + ", firstName=" + firstName
-                + ", lastName=" + lastName + ", phone=" + phone + ", email="
-                + email + ", birthDate=" + birthDate + '}';
+        return "Contact{" + "id1=" + id + ", firstName1=" + firstName
+                + ", lastName1=" + lastName + ", phone1=" + phone + ", email1="
+                + email + ", birthDate1=" + birthDate + '}';
     }
 
 }
