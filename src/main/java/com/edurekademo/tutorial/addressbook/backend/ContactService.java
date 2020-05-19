@@ -15,7 +15,6 @@ import java.util.logging.Logger;
 // class and nothing Vaadin specific.
 public class ContactService {
 
- // ARUN CHANGES -------123456789
     // Create dummy data by randomly combining first and last names
     static String[] fnames = { "Peter", "Alice", "John", "Mike", "Olivia",
             "Nina", "Alex", "Rita", "Dan", "Umberto", "Henrik", "Rene", "Lisa",
