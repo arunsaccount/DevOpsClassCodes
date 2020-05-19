@@ -68,7 +68,7 @@ public class Contact implements Serializable, Cloneable {
     public Date getBirthDate() {
         return birthDate;
     }
-
+// arun changes to develop2 only here as text
     public void setBirthDate(Date birthDate) {
         this.birthDate = birthDate;
     }
